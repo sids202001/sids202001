@@ -1,4 +1,3 @@
-
 <p> 👋 HELLO! I AM SIDDHESH SANTOSH SAWANT, currently working as Research Assistant in George Mason University and over 2 years of experience working as a Data Analyst, specialized in SQL, Python, R, Tableau, Excel, and Power BI to analyze data and uncover valuable insights. My expertise lies in creating interactive dashboards and reports, managing ETL processes, and performing statistical analysis to aid business decision-making. 🎓 I have recently graduated with a Masters in Information Systems from George Mason University. I’m passionate about expanding my skill set and using data to solve complex challenges.
 </p>
 
