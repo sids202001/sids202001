@@ -10,6 +10,11 @@
 
 - [Data Science and Machine Learning with Python - Udemy](https://www.udemy.com/certificate/UC-4b7cf70f-2e79-4301-ab32-176eb51d4d5e/)
 - [SQL for Data Analysis - Udemy](https://www.udemy.com/certificate/UC-153113dd-103b-4e7c-a66e-4beeaf648c5d/)
+- [Advanced Power BI: DAX Language, Formulas, and Calculations - LinkedIn Learning](https://www.linkedin.com/learning/certificates/e3857e80994916c164d62c8826bb66dd300d7c6844c163d99bb408db0f6f4cc1?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BlXfuDbXvTsC5P9Cjp8Lyeg%3D%3D)
+- [Learning Data Analytics: 1 Foundations - LinkedIn Learning](https://www.linkedin.com/learning/certificates/783518e251f01a3966fadeb4fd526623764b45b584b085c6506d4ea8e3fd7eb3?trk=share_certificate)
+- [Microsoft Excel - Learn MS EXCEL For DATA Analysis - Udemy](https://www.udemy.com/certificate/UC-f4ce2ffb-d25c-4b1d-b4f9-3c2ab68962a8/)
+- [Machine Learning & Deep Learning in Python & R - Udemy ](https://www.udemy.com/certificate/UC-951d5c9f-65ff-4f74-902d-e465cbf45ea8/)
+
 
 
 # 🖥️ Technical Skills: 
