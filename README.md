@@ -1,4 +1,8 @@
-<p> 👋 Hello! 👋 I’m Siddhesh Santosh Sawant, a software and data professional with 2+ years of experience working across data analytics, backend systems, and cloud-based workflows. I have strong experience with Python, SQL, and AWS, along with building reliable data pipelines, performing data validation, and creating clear, impactful dashboards using Power BI and Tableau. I enjoy translating complex data and systems into actionable insights through collaboration with engineering, data, and business teams. 🎓 I hold a Master’s degree in Information Systems from George Mason University and am passionate about continuous learning and solving real-world problems with data and technology.
+<p>
+  👋 Hi, I’m Siddhesh. I'm a Software Developer and Data Analyst who loves building backend systems and data tools that actually solve real problems. I recently graduated with my Master’s in Information Systems from George Mason University (May 2024), and I currently work as a Software Developer at Talviro Inc.
+</p>
+<p>
+  Before this, I spent time as an SDE at Amazon, where I focused heavily on backend reliability, event-driven AWS pipelines, and integrating LLMs into our internal workflows. My core stack revolves around Python, SQL, and AWS. Outside of standard backend work, I spend a lot of time experimenting with generative AI (like building agents with Gemini and Claude) and writing scripts to analyze stock market data. I just really enjoy bridging the gap between raw data and functional software. 
 </p>
 
 
@@ -15,6 +19,20 @@
 - [Microsoft Excel - Learn MS EXCEL For DATA Analysis - Udemy](https://www.udemy.com/certificate/UC-f4ce2ffb-d25c-4b1d-b4f9-3c2ab68962a8/)
 - [Machine Learning & Deep Learning in Python & R - Udemy ](https://www.udemy.com/certificate/UC-951d5c9f-65ff-4f74-902d-e465cbf45ea8/)
 
+## 🚀 What I've Been Building
+
+* **AI-Powered Resume & Application Assistant (Gemini)**
+  I recently got tired of manually tailoring my resume for every application, so I built a custom tool using Google's Gemini. It dynamically parses job descriptions, cross-references them with my actual engineering background, and helps me format highly targeted application materials.
+  * *Key Skills:* Python, Google Gemini API (LLM), NLP, Prompt Engineering, JSON Parsing.
+
+
+* **Stock Market Technical Analysis Tracker**
+  To help manage my personal investments, I built an algorithmic stock analysis engine in Python. The system utilizes automated pattern recognition and mathematical modeling to identify high-probability entry and exit zones, streamlining the transition from raw market data to actionable investment decisions.
+  * *Key Skills:* Python, yfinance, NumPy, SciPy, Technical Analysis Math.
+
+* **Automated Data Release Gates (Amazon)**
+  At Amazon, preventing invalid data from reaching production was a top priority. I worked on developing an automated validation framework using AWS Step Functions, Batch, and S3. This system served as a release gate for our pipelines, running rigorous sanity checks to actively intercept and quarantine malformed data, ensuring downstream analytics ran smoothly.
+  * *Key Skills:* AWS Step Functions, AWS Batch, Amazon S3, Python, ETL, Data Sanity Checks, Data Validation.
 
 
 # 🖥️ Technical Skills: 
