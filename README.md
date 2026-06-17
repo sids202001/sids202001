@@ -21,10 +21,9 @@
 
 ## 🚀 What I've Been Building
 
-* **AI-Powered Resume & Application Assistant (Gemini)**
-  I recently got tired of manually tailoring my resume for every application, so I built a custom tool using Google's Gemini. It dynamically parses job descriptions, cross-references them with my actual engineering background, and helps me format highly targeted application materials.
-  * *Key Skills:* Python, Google Gemini API (LLM), NLP, Prompt Engineering, JSON Parsing.
-
+* **Automated Job Scout Engine**
+  To optimize my job search, I developed a Python-based automation engine that programmatically aligns active job listings with my core technical stack. The system parses my PDF resume to extract professional skills and automatically scrapes major job boards using `jobspy` to deliver relevant application links straight to a Telegram bot.
+  * *Key Skills:* Python, Data Scraping (jobspy), PDF Parsing (PyPDF2), Telegram Bot API.
 
 * **Stock Market Technical Analysis Tracker**
   To help manage my personal investments, I built an algorithmic stock analysis engine in Python. The system utilizes automated pattern recognition and mathematical modeling to identify high-probability entry and exit zones, streamlining the transition from raw market data to actionable investment decisions.
