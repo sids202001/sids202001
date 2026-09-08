@@ -21,14 +21,14 @@
 
 ## 🚀 What I've Been Building
 
-* **Autonomous AI Job Scout (`autonomous-ai-job-scout`)**
+* **Automated Job Application Engine (`autonomous-ai-job-scout`)**
   An autonomous AI browser agent built with Python and Playwright to automate the repetitive tech job application lifecycle across LinkedIn, Greenhouse, Lever, and Ashby.
   * **How it Works & Technical Architecture:** Uses `PyPDF2` to dynamically extract technical skill vectors from PDF resumes and generate targeted search queries. Upstream regex filters automatically drop roles requiring >3 years of experience or lacking visa sponsorship (OPT/H-1B). Launches asynchronous Chromium sessions to navigate multi-step ATS workflows, uploads resumes, and injects native browser events to bypass synthetic React input blocks.
   * **AI & Guardrails:** Integrates an LLM reasoning engine to contextually resolve unpredictable open-ended screening questions (*"Why this company?"*, technical background blurbs) and map custom dropdowns. Non-negotiable fields (work authorization, salary thresholds, clearance) pull from hardcoded deterministic profile rules to eliminate hallucination risks.
   * **Practical Usage:** Runs as a background pipeline that discovers openings, fills forms, submits applications, records transactions in a local SQLite database (`jobs.db`), and streams real-time status alerts to a private Telegram channel.
   * *Key Skills:* Python 3, Playwright (Chromium), LLM Prompt Orchestration & Guardrails, PyPDF2, AsyncIO, SQLite, Telegram Bot API.
 
-* **Stock Market Analyzer Dashboard (`stock-market-analyzer-dashboard`)**
+* **Real-Time Stock Market Technical Analysis Dashboard (`stock-market-analyzer-dashboard`)**
   A high-throughput equity intelligence platform delivering real-time technical indicators, options analytics, and automated financial research with zero API key dependencies.
   * **How it Works & Technical Architecture:** A multi-threaded Python backend (`ThreadingHTTPServer`) connects directly to Yahoo Finance via `yfinance`. Implements an in-memory 2-minute TTL cache protected by `threading.Lock` across bulk price and macro queries, eliminating upstream `429 Too Many Requests` rate-limiting and cutting network egress by over 70%.
   * **Quantitative Math & AI Synthesis:** Processes raw pandas price matrices to compute 50/200 SMA crossovers (Golden/Death Crosses), 14-period RSI (Wilder's smoothing), MACD (12/26/9 EMA), and 52-week Fibonacci swing levels. Pipes balance sheets, cash flow, debt-to-cash ratios, and EPS surprises into an LLM reasoning engine to automatically generate executive-level Moat, Catalyst, and Stop-Loss briefs.
