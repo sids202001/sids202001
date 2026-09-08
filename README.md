@@ -19,35 +19,80 @@
 - [Microsoft Excel - Learn MS EXCEL For DATA Analysis - Udemy](https://www.udemy.com/certificate/UC-f4ce2ffb-d25c-4b1d-b4f9-3c2ab68962a8/)
 - [Machine Learning & Deep Learning in Python & R - Udemy ](https://www.udemy.com/certificate/UC-951d5c9f-65ff-4f74-902d-e465cbf45ea8/)
 
-## 🚀 What I've Been Building
+## 🚀 Featured Engineering Projects
 
-* **Automated Job Application Engine** ([`autonomous-ai-job-scout`](https://github.com/sids202001/autonomous-ai-job-scout))
+### 🤖 [Automated Job Application Engine](https://github.com/sids202001/autonomous-ai-job-scout)
+<p align="left">
+  <a href="https://github.com/sids202001/autonomous-ai-job-scout"><img src="https://img.shields.io/badge/GitHub-autonomous--ai--job--scout-181717?style=for-the-badge&logo=github" alt="Repository"/></a>
+</p>
 
-  Job hunting in tech has become an exhausting, repetitive numbers game. Spending hours every day scrolling job boards, opening dozens of browser tabs, copy-pasting the same resume details into clunky ATS portals, and re-answering the exact same screening questions over and over again drains time that should be spent preparing for interviews. I built this autonomous AI job application engine to take over the entire application lifecycle on autopilot.
+Job hunting in tech has become an exhausting, repetitive numbers game. Spending hours every day scrolling job boards, opening dozens of browser tabs, copy-pasting the same resume details into clunky ATS portals, and re-answering the exact same screening questions over and over again drains time that should be spent preparing for interviews. I built this autonomous AI job application engine to take over the entire application lifecycle on autopilot.
 
-  You give the system your resume, and it handles the rest: it automatically scrapes live software engineering openings across LinkedIn, Greenhouse, Lever, and Ashby, uses dynamic document parsing to extract your core technical skills, and filters out jobs that demand excessive experience or lack visa sponsorship. From there, an asynchronous browser agent launches real Chromium sessions to navigate the application pages, upload your resume, and fill out multi-step forms. When hit with unpredictable, open-ended screening prompts ("Why are you a fit for this role?", technical experience summaries, or custom questionnaire dropdowns), an integrated AI reasoning engine references your actual candidate background and dynamically synthesizes tailored, professional answers in real time—enforcing strict guardrails on work authorization and compensation to prevent any hallucinated answers. The system submits applications autonomously, records every entry in a local SQLite database, and broadcasts real-time status alerts to a Telegram channel, turning a grueling 20-minute manual application chore into a seamless background workflow that applies to targeted roles while you sleep.
+You give the system your resume, and it handles the rest: it automatically scrapes live software engineering openings across LinkedIn, Greenhouse, Lever, and Ashby, uses dynamic document parsing to extract your core technical skills, and filters out jobs that demand excessive experience or lack visa sponsorship. From there, an asynchronous browser agent launches real Chromium sessions to navigate the application pages, upload your resume, and fill out multi-step forms. When hit with unpredictable, open-ended screening prompts ("Why are you a fit for this role?", technical experience summaries, or custom questionnaire dropdowns), an integrated AI reasoning engine references your actual candidate background and dynamically synthesizes tailored, professional answers in real time—enforcing strict guardrails on work authorization and compensation to prevent any hallucinated answers. The system submits applications autonomously, records every entry in a local SQLite database, and broadcasts real-time status alerts to a Telegram channel, turning a grueling 20-minute manual application chore into a seamless background workflow that applies to targeted roles while you sleep.
 
-  *Tech & Skills:* Autonomous AI Agents • Playwright Browser Automation • LLM Prompt Engineering & Guardrails • PyPDF2 • Python 3 • AsyncIO • SQLite • Telegram Bot API
+<p align="left">
+  <img src="https://img.shields.io/badge/Python_3-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3"/>
+  <img src="https://img.shields.io/badge/Playwright-Browser_Agent-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright"/>
+  <img src="https://img.shields.io/badge/AI_Agents-LLM_Guardrails-7952B3?style=flat-square" alt="AI Agents"/>
+  <img src="https://img.shields.io/badge/PyPDF2-Resume_Parsing-FF6F00?style=flat-square" alt="PyPDF2"/>
+  <img src="https://img.shields.io/badge/AsyncIO-Concurrency-007ACC?style=flat-square" alt="AsyncIO"/>
+  <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
+  <img src="https://img.shields.io/badge/Telegram_API-Real--time_Alerts-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram API"/>
+</p>
 
-* **Real-Time Stock Market Technical Analysis Dashboard** ([`stock-market-analyzer-dashboard`](https://github.com/sids202001/stock-market-analyzer-dashboard))
+---
 
-  Professional financial terminals like Bloomberg cost thousands of dollars a year, and free retail screener websites are either bloated with paywalls, spammy ads, or break under aggressive API rate limits. Worse, retail investors are forced to juggle three different tools just to evaluate a single stock—one tab for price charts, another for financial statements, and another for options chains. I built this platform to bring institutional-grade equity intelligence, algorithmic technical signals, and automated financial analysis into a single, lightning-fast dashboard that anyone can use for free with zero API keys.
+### 📈 [Real-Time Stock Market Technical Analysis Dashboard](https://github.com/sids202001/stock-market-analyzer-dashboard)
+<p align="left">
+  <a href="https://github.com/sids202001/stock-market-analyzer-dashboard"><img src="https://img.shields.io/badge/GitHub-stock--market--analyzer--dashboard-181717?style=for-the-badge&logo=github" alt="Repository"/></a>
+</p>
 
-  The platform is driven by a multi-threaded Python backend that streams live Wall Street market data directly from Yahoo Finance, decoupled by a thread-safe in-memory 2-minute TTL cache that prevents upstream vendor throttling during high-frequency scans. The engine processes vector math in real time to calculate 50/200-day moving average crossovers (Golden Crosses and Death Crosses), 14-period RSI momentum, MACD distributions, and 52-week Fibonacci support and resistance bands. Beyond raw technicals, the platform pipes company balance sheets, cash flow, debt-to-cash ratios, and historical earnings surprises into a generative AI financial reasoning pipeline. The AI analyzes these quantitative matrices on the fly to generate executive-level investment briefs—outlining company moats, upcoming market catalysts, risk ratings, and disciplined stop-loss recommendations for any global ticker. Paired with interactive options chains and dark-mode Chart.js visualizations, the dashboard delivers sub-second, comprehensive investment intelligence with zero subscription overhead.
+Professional financial terminals like Bloomberg cost thousands of dollars a year, and free retail screener websites are either bloated with paywalls, spammy ads, or break under aggressive API rate limits. Worse, retail investors are forced to juggle three different tools just to evaluate a single stock—one tab for price charts, another for financial statements, and another for options chains. I built this platform to bring institutional-grade equity intelligence, algorithmic technical signals, and automated financial analysis into a single, lightning-fast dashboard that anyone can use for free with zero API keys.
 
-  *Tech & Skills:* Generative AI Financial Reasoning • Quantitative Indicator Pipelines • Python • ThreadingHTTPServer • yfinance • pandas • Chart.js • In-Memory Caching
+The platform is driven by a multi-threaded Python backend that streams live Wall Street market data directly from Yahoo Finance, decoupled by a thread-safe in-memory 2-minute TTL cache that prevents upstream vendor throttling during high-frequency scans. The engine processes vector math in real time to calculate 50/200-day moving average crossovers (Golden Crosses and Death Crosses), 14-period RSI momentum, MACD distributions, and 52-week Fibonacci support and resistance bands. Beyond raw technicals, the platform pipes company balance sheets, cash flow, debt-to-cash ratios, and historical earnings surprises into a generative AI financial reasoning pipeline. The AI analyzes these quantitative matrices on the fly to generate executive-level investment briefs—outlining company moats, upcoming market catalysts, risk ratings, and disciplined stop-loss recommendations for any global ticker. Paired with interactive options chains and dark-mode Chart.js visualizations, the dashboard delivers sub-second, comprehensive investment intelligence with zero subscription overhead.
 
-* **Itemized Bill & Expense Splitter** ([`itemized-bill-splitter`](https://github.com/sids202001/itemized-bill-splitter))
+<p align="left">
+  <img src="https://img.shields.io/badge/Python_3-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3"/>
+  <img src="https://img.shields.io/badge/Yahoo_Finance-Zero_API_Keys-6001D2?style=flat-square&logo=yahoo&logoColor=white" alt="Yahoo Finance"/>
+  <img src="https://img.shields.io/badge/pandas-Vectorized_Analysis-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"/>
+  <img src="https://img.shields.io/badge/Chart.js-Interactive_Charts-FF6384?style=flat-square&logo=chartdotjs&logoColor=white" alt="Chart.js"/>
+  <img src="https://img.shields.io/badge/In--Memory_Cache-2--min_TTL-orange?style=flat-square" alt="In-Memory Cache"/>
+  <img src="https://img.shields.io/badge/Technical_Signals-SMA_%7C_RSI_%7C_MACD_%7C_Fibonacci-success?style=flat-square" alt="Technical Signals"/>
+  <img src="https://img.shields.io/badge/Generative_AI-Financial_Reasoning-7952B3?style=flat-square" alt="Generative AI"/>
+</p>
 
-  Splitting a shared bill after dining out or sharing apartment expenses with friends almost always turns into an awkward math headache. Standard expense-splitting apps either force everyone into a flat equal split—which is unfair when one person ordered an expensive entrée and cocktails while another just had a side salad—or they leave you scribbling on receipts with a phone calculator trying to figure out how to divide variable sales tax, tips, and service fees without shortchanging anyone. I built this web application to solve that exact friction with mathematical fairness and zero hassle.
+---
 
-  The application breaks down bills item-by-item and gives users four flexible ways to divide each dish: split equally across a group, assign exact dollar amounts, set custom percentages, or allocate weighted shares. What makes the engine truly fair is its proportional fee distribution algorithm: instead of naively splitting taxes and tips evenly, it calculates each person's exact percentage of the pre-tax food and drink subtotal, dynamically scaling their share of the tax, gratuity, and delivery fees based strictly on what they actually consumed. Built with an offline-first, zero-dependency architecture in pure Vanilla ES6+ and Tailwind CSS, the app loads in under 50ms on any phone or desktop browser with zero login, zero installations, and total client-side privacy. It automatically balances fractional penny rounding errors down to the cent, generates a real-time digital receipt audit log, and lets you export a pre-formatted itemized breakdown directly to WhatsApp or download a complete CSV report with a single tap.
+### 🧾 [Itemized Bill & Expense Splitter](https://github.com/sids202001/itemized-bill-splitter)
+<p align="left">
+  <a href="https://github.com/sids202001/itemized-bill-splitter"><img src="https://img.shields.io/badge/GitHub-itemized--bill--splitter-181717?style=for-the-badge&logo=github" alt="Repository"/></a>
+</p>
 
-  *Tech & Skills:* Financial Allocation Algorithms • Mathematical Modeling • Vanilla ES6+ • Tailwind CSS • Offline-First Web Architecture • State Serialization & CSV Export
+Splitting a shared bill after dining out or sharing apartment expenses with friends almost always turns into an awkward math headache. Standard expense-splitting apps either force everyone into a flat equal split—which is unfair when one person ordered an expensive entrée and cocktails while another just had a side salad—or they leave you scribbling on receipts with a phone calculator trying to figure out how to divide variable sales tax, tips, and service fees without shortchanging anyone. I built this web application to solve that exact friction with mathematical fairness and zero hassle.
 
-* **Automated Data Release Gates (Amazon)**
-  At Amazon, preventing invalid data from reaching production was a top priority. I worked on developing an automated validation framework using AWS Step Functions, Batch, and S3. This system served as a release gate for our pipelines, running rigorous sanity checks to actively intercept and quarantine malformed data, ensuring downstream analytics ran smoothly.
-  * *Key Skills:* AWS Step Functions, AWS Batch, Amazon S3, Python, ETL, Data Sanity Checks, Data Validation.
+The application breaks down bills item-by-item and gives users four flexible ways to divide each dish: split equally across a group, assign exact dollar amounts, set custom percentages, or allocate weighted shares. What makes the engine truly fair is its proportional fee distribution algorithm: instead of naively splitting taxes and tips evenly, it calculates each person's exact percentage of the pre-tax food and drink subtotal, dynamically scaling their share of the tax, gratuity, and delivery fees based strictly on what they actually consumed. Built with an offline-first, zero-dependency architecture in pure Vanilla ES6+ and Tailwind CSS, the app loads in under 50ms on any phone or desktop browser with zero login, zero installations, and total client-side privacy. It automatically balances fractional penny rounding errors down to the cent, generates a real-time digital receipt audit log, and lets you export a pre-formatted itemized breakdown directly to WhatsApp or download a complete CSV report with a single tap.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Vanilla_ES6+-Pure_JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="Vanilla ES6+"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/Architecture-Offline--First_%7C_Zero--Dependency-success?style=flat-square" alt="Offline-First"/>
+  <img src="https://img.shields.io/badge/Algorithm-Proportional_Fee_Distribution-blue?style=flat-square" alt="Financial Math"/>
+  <img src="https://img.shields.io/badge/Precision-Cent_Reconciliation-blueviolet?style=flat-square" alt="Precision"/>
+  <img src="https://img.shields.io/badge/Export-WhatsApp_%7C_CSV-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="Export"/>
+</p>
+
+---
+
+### ☁️ Automated Data Release Gates (Amazon)
+At Amazon, preventing invalid data from reaching production was a top priority. I worked on developing an automated validation framework using AWS Step Functions, Batch, and S3. This system served as a release gate for our pipelines, running rigorous sanity checks to actively intercept and quarantine malformed data, ensuring downstream analytics ran smoothly.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/AWS-Step_Functions-FF9900?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS Step Functions"/>
+  <img src="https://img.shields.io/badge/AWS-Batch-FF9900?style=flat-square&logo=amazonaws&logoColor=white" alt="AWS Batch"/>
+  <img src="https://img.shields.io/badge/Amazon_S3-Storage-569A31?style=flat-square&logo=amazons3&logoColor=white" alt="Amazon S3"/>
+  <img src="https://img.shields.io/badge/Python-ETL_Pipelines-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python ETL"/>
+  <img src="https://img.shields.io/badge/Data_Quality-Automated_Sanity_Checks-blue?style=flat-square" alt="Data Quality"/>
+</p>
 
 
 # 🖥️ Technical Skills: 
