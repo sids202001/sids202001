@@ -21,13 +21,27 @@
 
 ## 🚀 What I've Been Building
 
-* **Automated Job Scout Engine**
-  To optimize my job search, I developed a Python-based automation engine that programmatically aligns active job listings with my core technical stack. The system parses my PDF resume to extract professional skills and automatically scrapes major job boards using `jobspy` to deliver relevant application links straight to a Telegram bot.
-  * *Key Skills:* Python, Data Scraping (jobspy), PDF Parsing (PyPDF2), Telegram Bot API.
+* **Automated Job Application Engine (`autonomous-ai-job-scout`)**
+  An autonomous AI browser agent built with Python and Playwright to automate the repetitive tech job application lifecycle across LinkedIn, Greenhouse, Lever, and Ashby.
+  * **How it Works & Technical Architecture:** Uses `PyPDF2` to dynamically extract technical skill vectors from PDF resumes and generate targeted search queries. Upstream regex filters automatically drop roles requiring >3 years of experience or lacking visa sponsorship (OPT/H-1B). Launches asynchronous Chromium sessions to navigate multi-step ATS workflows, uploads resumes, and injects native browser events to bypass synthetic React input blocks.
+  * **AI & Guardrails:** Integrates an LLM reasoning engine to contextually resolve unpredictable open-ended screening questions (*"Why this company?"*, technical background blurbs) and map custom dropdowns. Non-negotiable fields (work authorization, salary thresholds, clearance) pull from hardcoded deterministic profile rules to eliminate hallucination risks.
+  * **Practical Usage:** Runs as a background pipeline that discovers openings, fills forms, submits applications, records transactions in a local SQLite database (`jobs.db`), and streams real-time status alerts to a private Telegram channel.
+  * *Key Skills:* Python 3, Playwright (Chromium), LLM Prompt Orchestration & Guardrails, PyPDF2, AsyncIO, SQLite, Telegram Bot API.
 
-* **Stock Market Technical Analysis Tracker**
-  To help manage my personal investments, I built an algorithmic stock analysis engine in Python. The system utilizes automated pattern recognition and mathematical modeling to identify high-probability entry and exit zones, streamlining the transition from raw market data to actionable investment decisions.
-  * *Key Skills:* Python, yfinance, NumPy, SciPy, Technical Analysis Math.
+* **Real-Time Stock Market Technical Analysis Dashboard (`stock-market-analyzer-dashboard`)**
+  A high-throughput equity intelligence platform delivering real-time technical indicators, options analytics, and automated financial research with zero API key dependencies.
+  * **How it Works & Technical Architecture:** A multi-threaded Python backend (`ThreadingHTTPServer`) connects directly to Yahoo Finance via `yfinance`. Implements an in-memory 2-minute TTL cache protected by `threading.Lock` across bulk price and macro queries, eliminating upstream `429 Too Many Requests` rate-limiting and cutting network egress by over 70%.
+  * **Quantitative Math & AI Synthesis:** Processes raw pandas price matrices to compute 50/200 SMA crossovers (Golden/Death Crosses), 14-period RSI (Wilder's smoothing), MACD (12/26/9 EMA), and 52-week Fibonacci swing levels. Pipes balance sheets, cash flow, debt-to-cash ratios, and EPS surprises into an LLM reasoning engine to automatically generate executive-level Moat, Catalyst, and Stop-Loss briefs.
+  * **Practical Usage:** Investors and traders run the server locally to monitor 20+ live equities classified by Buy/Hold/Avoid technical badges, search any global ticker (e.g., `AAPL`, `NVDA`, `RELIANCE.NS`), inspect options chain liquidity, and validate trade setups in sub-second Canvas charts rendered via Chart.js.
+  * *Key Skills:* Python 3, ThreadingHTTPServer, Generative AI Financial Reasoning, yfinance, pandas, NumPy, Chart.js, In-Memory Caching.
+
+* **Itemized Bill & Expense Splitter (`itemized-bill-splitter`)**
+  A zero-dependency, client-side financial application engineered to eliminate regressive cost burdens on shared dining and household tabs through mathematically fair tax and tip attribution.
+  * **How it Works & Technical Architecture:** Instead of naive flat splits ($\text{Total} / N$) that force lower spenders to cross-subsidize others' extra fees, the engine implements a consumption-weighted proportional attribution algorithm:
+    $$\text{Member Fee Liability} = \text{Total Extra Fees} \times \left(\frac{\text{Member Pre-Tax Subtotal}}{\sum \text{All Pre-Tax Subtotals}}\right)$$
+    Accommodates 4 discrete partitioning paradigms: Equal Split, Exact Dollar ($) with an automated "Fill Remaining" deficit solver, Percentages (%), and Weighted Ratio Shares (x:y). Eliminates JavaScript IEEE-754 floating-point rounding drift using integer-cent reconciliation.
+  * **Practical Usage:** Open the web app on any mobile or desktop browser at a restaurant table with zero login or setup. Log receipt items, assign who ordered what, enter the bill's total tax and tip, and tap "Copy Bill for WhatsApp" to instantly paste an itemized breakdown into the group chat for immediate settlement via Venmo or Zelle.
+  * *Key Skills:* Vanilla JavaScript (ES6+), Financial Allocation Algorithms, Tailwind CSS, Offline-First Architecture, Data URI CSV & Clipboard API.
 
 * **Automated Data Release Gates (Amazon)**
   At Amazon, preventing invalid data from reaching production was a top priority. I worked on developing an automated validation framework using AWS Step Functions, Batch, and S3. This system served as a release gate for our pipelines, running rigorous sanity checks to actively intercept and quarantine malformed data, ensuring downstream analytics ran smoothly.
